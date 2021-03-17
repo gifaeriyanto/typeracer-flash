@@ -16,7 +16,7 @@ const timeout = (ms) => {
   const browser = await puppeteer.launch({ headless: false, timeout: 30000 });
   const page = await browser.newPage();
   await page.setViewport({ width: 1200, height: 800 });
-  await page.goto("https://play.typeracer.com/?rt=271a956tz8", {
+  await page.goto(process.env.TYPERACE_LINK, {
     waitUntil: "networkidle2",
   });
 
