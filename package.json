@@ -6,9 +6,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "reg": "node reg.js",
-    "unreg": "node unreg.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
