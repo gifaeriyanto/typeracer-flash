@@ -41,9 +41,7 @@ const timeout = (ms) => {
   const splittedContent = content.split(" ");
 
   for (let word of splittedContent) {
-    await timeout(getRandomArbitrary(0.4, 1.2) * 1000);
-    await page.type(".txtInput", word + " ", {
-      delay: 0.2,
-    });
+    await timeout(getRandomArbitrary(0.4, 1.4) * 1000);
+    await page.type(".txtInput", word + " ");
   }
 })();
