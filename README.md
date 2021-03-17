@@ -1,3 +1,3 @@
 # typeracer-flash
 
-![typerace](https://user-images.githubusercontent.com/6601377/111521961-b8301300-8794-11eb-8fec-f3c1db8fe0e7.png)
+![typerace-flash (1)](https://user-images.githubusercontent.com/6601377/111522329-1eb53100-8795-11eb-829a-47610d40b33b.png)
